@@ -3,9 +3,27 @@
   <head>
     <title>formDemo.html</title>
     <meta charset = "UTF-8" />
+<<<<<<< HEAD
   </head>
   <body>
     <h1>Gridphoria version .001</h1>
+=======
+    <script>
+	function displayResult()
+	{
+	var table=document.getElementById("myTable");
+	var row=table.insertRow(-1);
+	var cell1=row.insertCell(0);
+	var cell2=row.insertCell(1);
+	var cell3=row.insertCell(2);
+	var cell4=row.insertCell(3);
+	var cell5=row.insertCell(4);
+	}
+</script>
+  </head>
+  <body>
+    <h1>Gridphoria version .0011</h1>
+>>>>>>> Commit Test 1
     <form>
     	<legend>Login Information </legend>
 
@@ -13,8 +31,13 @@
 			<dl>
 			<dt>username:
 			<dd><input type = "text" username = "username">
+<<<<<<< HEAD
 			<dt>password:
 			<dd><input type = "text" password = "password">
+=======
+			<dt>pin:
+			<dd><input type = "text" pin = "pin">
+>>>>>>> Commit Test 1
 			</dl>
 			</form>
     </form>
@@ -34,6 +57,7 @@
     </form>
     <label> </label>
     <label> </label>
+<<<<<<< HEAD
     <label> Selections</label>
     <p>
 			               <label>Rank</label>
@@ -116,5 +140,90 @@
 	             			<label for = "chkUpdate">Update</label>
     </p>
 <p><input type = "submit"></p>
+=======
+
+	    <h2>Selections</h2>
+	    <table id="myTable" border="1">
+	      <tr>
+	        <th>Course Number</th>
+	        <th>Class</th>
+	        <th>Status</th>
+	        <th>Owner</th>
+	        <th>Modify</th>
+	      </tr>
+
+	      <tr>
+	        <td>			<select id = "Number">
+							<option value = "Course Number 1">Course Number 1</option>
+							<option value = "Course Number 2">Course Number 2</option>
+							<option value = "Course Number 3">Course Number 3</option>
+							<option value = "Course Number 4">Course Number 4</option>
+			                </select></td>
+	        <td><select id = "Class">
+						    <option value = "Class 1">Class 1</option>
+						    <option value = "Class 2">Class 2</option>
+						    <option value = "Class 3">Class 3</option>
+						    <option value = "Class 4">Class 4</option>
+			    </select></td>
+	        <td><FONT COLOR="000FFF000">Approved</FONT></td>
+	        <td>Teacher A</td>
+	        <td><select id = "Update">
+							<option value = "No Action">No Action</option>
+							<option value = "Update">Update</option>
+							<option value = "Delete">Delete</option>
+			    </select></td>
+	      </tr>
+
+	      <tr>
+			<td>			<select id = "Number">
+							<option value = "Course Number 1">Course Number 1</option>
+							<option value = "Course Number 2">Course Number 2</option>
+							<option value = "Course Number 3">Course Number 3</option>
+							<option value = "Course Number 4">Course Number 4</option>
+			                </select></td>
+	        <td><select id = "Class">
+						    <option value = "Class 1">Class 1</option>
+						    <option value = "Class 2">Class 2</option>
+						    <option value = "Class 3">Class 3</option>
+						    <option value = "Class 4">Class 4</option>
+			    </select></td>
+	        <td><FONT COLOR="FFF000000">Closed</FONT></td>
+	        <td>Teacher B</td>
+	        <td><select id = "Update">
+							<option value = "No Action">No Action</option>
+							<option value = "Update">Update</option>
+							<option value = "Delete">Delete</option>
+			    </select></td>
+	      </tr>
+
+	      <tr>
+			<td>			<select id = "Number">
+							<option value = "Course Number 1">Course Number 1</option>
+							<option value = "Course Number 2">Course Number 2</option>
+							<option value = "Course Number 3">Course Number 3</option>
+							<option value = "Course Number 4">Course Number 4</option>
+			                </select></td>
+	        <td><select id = "Class">
+						    <option value = "Class 1">Class 1</option>
+						    <option value = "Class 2">Class 2</option>
+						    <option value = "Class 3">Class 3</option>
+						    <option value = "Class 4">Class 4</option>
+			    </select></td>
+	        <td><FONT COLOR="888888888">Pending</FONT></td>
+	        <td>OPEN</td>
+	        <td><select id = "Update">
+							<option value = "No Action">No Action</option>
+							<option value = "Update">Update</option>
+							<option value = "Delete">Delete</option>
+			    </select></td>
+	      </tr>
+    </table>
+<button type="button" onclick="displayResult()">Add New</button>
+<p>&nbsp;</p>
+<button type="button">Refresh</button>
+<button type="button">Commit</button>
+<button type="button">Save</button>
+
+>>>>>>> Commit Test 1
   </body>
 </html>
